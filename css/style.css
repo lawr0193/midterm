@@ -1,0 +1,84 @@
+body{
+font-family: vesper libre;
+color: #1a1a1a;
+line-height: 1.5;
+margin: 0%;
+
+}
+
+header,
+footer {
+ background-color: black;
+   color: #fff;
+text-align: center;
+  
+
+   background-color: black;
+   color: #fff;
+text-align: center;}
+
+
+   image{width: 100%;}
+
+
+   :target #pitchfork-logo{
+      width: 100px;
+      padding-top: 8px;
+   }
+
+   main{
+padding: 20px;
+}
+
+h1{
+   font-size: 2rem;
+   line-height: 1.3;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   }
+
+   .News{
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: .85rem;
+      border-bottom: 2px solid#ff3530;
+   }
+     
+   
+   
+      figcaption, .News, h2, .author, .date {
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+      } 
+      /* For some reason the open sans fonts and stuff werent working, I still changed them to show I could at least do that*/
+
+      
+   figure{
+      margin-top:1.25em ;
+      margin-bottom:1.25em ;
+      margin-left: 0em;
+      margin-right: 0em;
+   }
+   figcaption{
+      font-size: .75rem;
+align-content: center;
+color: #757575;
+font-style: italic;
+   }
+.author, .date {font-size: .85rem;
+margin-bottom: 0;}
+   
+
+ul {
+   list-style-type:none ;
+     padding-left: 0;
+   }
+
+   .links {
+
+      color: #1a1a1a;
+      text-decoration: underline;
+      }
+.links:hover {
+   text-decoration: none;
+   color: #ff3530;
+}
